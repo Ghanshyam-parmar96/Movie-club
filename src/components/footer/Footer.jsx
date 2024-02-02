@@ -35,7 +35,7 @@ const Footer = () => {
           pariatur.
         </div>
         <div className="flex items-center justify-center gap-2.5">
-          <FacebookShareButton url="http://localhost:5173/"
+          <FacebookShareButton url="https://movie-club-gp.vercel.app/"
             title="Movie-club - Explore  latest Movie and TV Shows">
             <span className="w-12 h-12 bg-black flex items-center justify-center cursor-pointer transition-shadow rounded-3xl hover:shadow-[0_0_0.625em_white] hover:text-pink-600">
               <svg
@@ -52,7 +52,7 @@ const Footer = () => {
             </span>
           </FacebookShareButton>
           <TelegramShareButton
-            url="http://localhost:5173/"
+            url="https://movie-club-gp.vercel.app/"
             title="Movie-club - Explore latest Movie and TV Shows"
           >
             <span className="w-12 h-12 bg-black flex items-center justify-center cursor-pointer transition-shadow rounded-3xl hover:shadow-[0_0_0.625em_white] hover:text-pink-600">
@@ -68,7 +68,7 @@ const Footer = () => {
             </span>
           </TelegramShareButton>
           <TwitterShareButton
-            url="http://localhost:5173/"
+            url="https://movie-club-gp.vercel.app/"
             title="Movie-club - Explore  latest Movie and TV Shows"
           >
             <span className="w-12 h-12 bg-black flex items-center justify-center cursor-pointer transition-shadow rounded-3xl hover:shadow-[0_0_0.625em_white] hover:text-pink-600">
@@ -85,7 +85,7 @@ const Footer = () => {
               </svg>
             </span>
           </TwitterShareButton>
-          <LinkedinShareButton url="http://localhost:5173/"
+          <LinkedinShareButton url="https://movie-club-gp.vercel.app/"
             title="Movie-club - Explore  latest Movie and TV Shows">
             <span className="w-12 h-12 bg-black flex items-center justify-center cursor-pointer transition-shadow rounded-3xl hover:shadow-[0_0_0.625em_white] hover:text-pink-600">
               <svg

@@ -38,7 +38,7 @@ const DetailBanner = ({ data, mediaType, id }) => {
       <MetaData 
         title={`Movie-club | ${data?.title || data?.name} | Watch Now`} 
         description={(data?.overview).slice(0, 155) + "..."}
-        url={`http://localhost:5173/${mediaType}/${id}`}
+        url={`https://movie-club-gp.vercel.app/${mediaType}/${id}`}
         image={backDropImage + data?.backdrop_path}
       />
       <>

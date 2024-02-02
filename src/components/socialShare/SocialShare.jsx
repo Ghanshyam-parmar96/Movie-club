@@ -19,7 +19,7 @@ const SocialShare = ({mediaType, id, title, }) => {
   },[location])
   
   const shareDetails = {
-    url: `http://localhost:5173/${mediaType}/${id}`,
+    url: `https://movie-club-gp.vercel.app/${mediaType}/${id}`,
     title: `Movie-club | ${title} | Explore TV Shows`,
     separator: ":: ",
   };

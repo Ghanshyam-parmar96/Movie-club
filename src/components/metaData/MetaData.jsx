@@ -3,7 +3,7 @@ import { Helmet } from "react-helmet";
 import { useSelector } from "react-redux";
 
 const MetaData = ({
-  url = "http://localhost:5173/",
+  url = "https://movie-club-gp.vercel.app/",
   title = "Movie Club - Latest Movies Reviews, Trailers, and Tv Show's",
   description = "Movie Club is a website dedicated to providing the latest movies reviews, trailers, and news. We cover a wide range of movies, from blockbusters to independent films. We also provide information about upcoming movies and movie releases. Visit our website today to learn more about your favorite movies!",
   image
