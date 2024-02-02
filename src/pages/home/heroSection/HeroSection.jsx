@@ -10,7 +10,7 @@ import fetchApi from "../../../utils/fetchApi";
 import { useSelector, useDispatch } from "react-redux";
 import LazyImage from "../../../components/lazyLoadImage/LazyImage";
 import { metaImage } from "../../../store/homeSlice";
-import GPImage from '../../../assets/GP image.jpg';
+import GPImage from '../../../assets/GP_image.jpg';
 
 const HeroSection = () => {
   const [selected, setSelected] = useState({});
