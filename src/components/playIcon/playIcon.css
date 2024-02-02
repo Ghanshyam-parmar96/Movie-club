@@ -1,0 +1,46 @@
+.iconBtn {
+  cursor: pointer;
+}
+
+.iconBtn .triangle {
+  stroke-dasharray: 240;
+  stroke-dashoffset: 480;
+  stroke: white;
+  transform: translateY(0);
+  transition: all 0.7s ease-in-out;
+}
+
+.iconBtn .circle {
+  stroke: white;
+  stroke-dasharray: 650;
+  stroke-dashoffset: 1300;
+  transition: all 0.5s ease-in-out;
+}
+
+.iconBtn:hover .triangle {
+  stroke-dashoffset: 0;
+  opacity: 1;
+  stroke: #87cefa;
+  animation: trailorPlay 0.7s ease-in-out;
+}
+
+.iconBtn:hover .circle {
+  stroke-dashoffset: 0;
+  stroke: #87cefa;
+}
+
+.iconBtn:hover .watchText {
+  transition-duration: 0.5s;
+  color: #87cefa;
+}
+
+@keyframes trailorPlay {
+  0% {
+    stroke-dashoffset: 480;
+    opacity: 0;
+  }
+  100% {
+    stroke-dashoffset: 0;
+    opacity: 1;
+  }
+}

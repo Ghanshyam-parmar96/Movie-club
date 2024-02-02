@@ -1,0 +1,283 @@
+.scrollbarNone::-webkit-scrollbar {
+  display: none;
+}
+/* ::-webkit-scrollbar{
+    display: none;
+} */
+/* Firefox */
+/* * {
+  scrollbar-width: auto;
+  scrollbar-color: #8a7b7b #ffffff;
+} */
+
+/* Other browsers */
+.cardScrollbar::-webkit-scrollbar {
+  width: 8px;
+}
+
+.cardScrollbar::-webkit-scrollbar-track {
+  background-color: transparent;
+}
+
+.cardScrollbar::-webkit-scrollbar-thumb {
+  background-color: #8a7b7b;
+  border-radius: 15px;
+}
+
+.posterImg .lazy-load-image-background {
+  /* display: inline !important; */
+  height: 100%;
+  width: 100%;
+}
+.posterImg .lazy-load-image-background Img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+}
+
+.text-overflow-home {
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-line-clamp: 4; /* Adjust this to the number of lines you want to display */
+  -webkit-box-orient: vertical;
+}
+
+.max-full {
+  max-height: -webkit-fill-available;
+}
+
+.swiper-button-next::after {
+  content: "" !important;
+}
+.swiper-button-prev::after {
+  content: "" !important;
+}
+
+
+.mobileMenu {
+  animation: mobileMenu 0.3s ease forwards;
+}
+
+
+@keyframes mobileMenu {
+  0% {
+      transform: translateY(-130%);
+  }
+  100% {
+      transform: translateY(0);
+  }
+}
+
+/*
+* ----------------------------------------
+* slider coustom css
+* ----------------------------------------
+*/
+
+/* Removing the default appearance */
+.thumb,
+.thumb::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  -webkit-tap-highlight-color: transparent;
+}
+
+/* For Chrome browsers */
+.thumb::-webkit-slider-thumb {
+  background-color: #3b82f6;
+  border: none;
+  border-radius: 50%;
+  box-shadow: 0 0 1px 1px #3b82f6;
+  cursor: pointer;
+  height: 18px;
+  width: 18px;
+  margin-top: 4px;
+  pointer-events: all;
+  position: relative;
+}
+
+/* For Firefox browsers */
+.thumb::-moz-range-thumb {
+  background-color: #3b82f6;
+  border: none;
+  border-radius: 50%;
+  box-shadow: 0 0 1px 1px #3b82f6;
+  cursor: pointer;
+  height: 18px;
+  width: 18px;
+  margin-top: 4px;
+  pointer-events: all;
+  position: relative;
+}
+
+/*
+* ----------------------------------------
+* animation scale-up-tl
+* ----------------------------------------
+*/
+
+.scale-up-tl {
+  -webkit-animation: scale-up-tl 0.5s linear;
+  animation: scale-up-tl 0.5s linear;
+}
+
+@-webkit-keyframes scale-up-tl {
+  0% {
+    -webkit-transform: scale(0);
+    transform: scale(0);
+    -webkit-transform-origin: 0% 0%;
+    transform-origin: 0% 0%;
+  }
+  25% {
+    -webkit-transform: scale(0.25);
+    transform: scale(0.25);
+    -webkit-transform-origin: 0% 0%;
+    transform-origin: 0% 0%;
+  }
+  50% {
+    -webkit-transform: scale(0.5);
+    transform: scale(0.5);
+    -webkit-transform-origin: 0% 0%;
+    transform-origin: 0% 0%;
+  }
+  75% {
+    -webkit-transform: scale(0.75);
+    transform: scale(0.75);
+    -webkit-transform-origin: 0% 0%;
+    transform-origin: 0% 0%;
+  }
+  100% {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+    -webkit-transform-origin: 0% 0%;
+    transform-origin: 0% 0%;
+  }
+}
+@keyframes scale-up-tl {
+  0% {
+    -webkit-transform: scale(0);
+    transform: scale(0);
+    -webkit-transform-origin: 0% 0%;
+    transform-origin: 0% 0%;
+  }
+  25% {
+    -webkit-transform: scale(0.25);
+    transform: scale(0.25);
+    -webkit-transform-origin: 0% 0%;
+    transform-origin: 0% 0%;
+  }
+  50% {
+    -webkit-transform: scale(0.5);
+    transform: scale(0.5);
+    -webkit-transform-origin: 0% 0%;
+    transform-origin: 0% 0%;
+  }
+  75% {
+    -webkit-transform: scale(0.75);
+    transform: scale(0.75);
+    -webkit-transform-origin: 0% 0%;
+    transform-origin: 0% 0%;
+  }
+  100% {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+    -webkit-transform-origin: 0% 0%;
+    transform-origin: 0% 0%;
+  }
+}
+
+/*
+* ----------------------------------------
+* animation scale-up-bl
+* ----------------------------------------
+*/
+
+.scale-up-bl {
+  -webkit-animation: scale-up-bl 0.5s linear;
+  animation: scale-up-bl 0.5s linear;
+}
+
+@-webkit-keyframes scale-up-bl {
+  0% {
+    -webkit-transform: scale(0);
+    transform: scale(0);
+    -webkit-transform-origin: 0% 100%;
+    transform-origin: 0% 100%;
+  }
+  25% {
+    -webkit-transform: scale(0.25);
+    transform: scale(0.25);
+    -webkit-transform-origin: 0% 100%;
+    transform-origin: 0% 100%;
+  }
+  50% {
+    -webkit-transform: scale(0.5);
+    transform: scale(0.5);
+    -webkit-transform-origin: 0% 100%;
+    transform-origin: 0% 100%;
+  }
+  75% {
+    -webkit-transform: scale(0.75);
+    transform: scale(0.75);
+    -webkit-transform-origin: 0% 100%;
+    transform-origin: 0% 100%;
+  }
+  100% {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+    -webkit-transform-origin: 0% 100%;
+    transform-origin: 0% 100%;
+  }
+}
+@keyframes scale-up-bl {
+  0% {
+    -webkit-transform: scale(0);
+    transform: scale(0);
+    -webkit-transform-origin: 0% 100%;
+    transform-origin: 0% 100%;
+  }
+  25% {
+    -webkit-transform: scale(0.25);
+    transform: scale(0.25);
+    -webkit-transform-origin: 0% 100%;
+    transform-origin: 0% 100%;
+  }
+  50% {
+    -webkit-transform: scale(0.5);
+    transform: scale(0.5);
+    -webkit-transform-origin: 0% 100%;
+    transform-origin: 0% 100%;
+  }
+  75% {
+    -webkit-transform: scale(0.75);
+    transform: scale(0.75);
+    -webkit-transform-origin: 0% 100%;
+    transform-origin: 0% 100%;
+  }
+  100% {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+    -webkit-transform-origin: 0% 100%;
+    transform-origin: 0% 100%;
+  }
+}
+
+/*
+* ----------------------------------------
+* card Glassmarfo effect
+* ----------------------------------------
+*/
+
+.card {
+  backdrop-filter: blur(3px);
+  -webkit-backdrop-filter: blur(3px);
+  background-color: #0505051a;
+  border-radius: 12px;
+  border: 2px solid rgb(58, 73, 89);
+  box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 1),
+    0px 0px 15px 0px rgba(0, 0, 0, 1);
+  -webkit-box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 1),
+    0px 0px 15px 0px rgba(0, 0, 0, 1);
+  -moz-box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 1),
+    0px 0px 15px 0px rgba(0, 0, 0, 1);
+}
