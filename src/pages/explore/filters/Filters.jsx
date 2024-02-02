@@ -9,7 +9,7 @@ import MultiSelector from "./multiSelector/MultiSelector";
 import UserScore from "./userScore/UserScore";
 import Certification from "./certification/Certification";
 import Runtime from "./runtime/Runtime";
-import MinUserVotes from "./minUserVotes/MInUserVotes";
+import MinUserVotes from "./minUserVotes/MinUserVotes";
 
 const Filters = () => {
   const [show, setShow] = useState(true);
